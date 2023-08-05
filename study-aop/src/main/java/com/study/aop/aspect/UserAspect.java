@@ -13,12 +13,12 @@ import org.aspectj.lang.annotation.Pointcut;
  */
 @Aspect
 public class UserAspect {
-	@Pointcut("execution(* com.plainhu.aop.service.UserService.queryUser())")
+	@Pointcut("execution(* com.study.aop.service.UserService.queryUser())")
 	public void pointCut() {
 	}
 
 	//匹配当前指定类的代理对象
-//	@Pointcut("this(com.plainhu.aop.service.UserServiceImpl)")
+//	@Pointcut("this(com.study.aop.service.UserServiceImpl)")
 //	public void pointCutThis(){
 //	}
 

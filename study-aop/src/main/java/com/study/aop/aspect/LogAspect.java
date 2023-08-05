@@ -15,7 +15,7 @@ import java.util.Arrays;
 @Aspect
 public class LogAspect {
 
-	@Pointcut("execution(public int com.plainhu.aop.bean.MathCalculator.div(int,int))")
+	@Pointcut("execution(public int com.study.aop.bean.MathCalculator.div(int,int))")
 	public void pointCut() {
 	}
 
